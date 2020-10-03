@@ -1,16 +1,16 @@
-10:51:51 [ERR][      Workbench]: Console redirection failed.
-10:51:51 [INF][      Workbench]: Starting up Workbench
-10:51:51 [INF][      Workbench]: Current environment:
+12:09:39 [ERR][      Workbench]: Console redirection failed.
+12:09:39 [INF][      Workbench]: Starting up Workbench
+12:09:39 [INF][      Workbench]: Current environment:
 	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySQLWorkbench.exe" 
 	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
 	HasShutdownStarted: False
 	OSVersion: Microsoft Windows NT 6.2.9200.0
 	SystemDirectory: C:\WINDOWS\system32
-	TickCount: 393529078
+	TickCount: 398197359
 	UserInteractive: True
 	Version: 4.0.30319.42000
-	WorkingSet: 41418752
-10:51:51 [INF][      Workbench]: Environment variables:
+	WorkingSet: 41586688
+12:09:39 [INF][      Workbench]: Environment variables:
 	COMPUTERNAME = LAPTOP-KF5V4KKB
 	USERPROFILE = C:\Users\tazh_
 	HOMEPATH = \Users\tazh_
@@ -52,47 +52,14 @@
 	windir = C:\WINDOWS
 	PROCESSOR_REVISION = 7e05
 	PUBLIC = C:\Users\Public
-10:51:51 [INF][      Workbench]: Current version given by meta info is: 8.0.21
-10:51:51 [INF][      Workbench]: Setting PATH to: C:\WINDOWS\system32;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\tazh_\AppData\Local\Microsoft\WindowsApps;
-10:51:51 [INF][ mforms managed]: Initializing mforms wrapper
-10:51:51 [INF][   WBContext UI]: Initializing workbench context UI with these values:
-	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
-	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
-	struct path: 
-	module path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE/modules
-	library path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
-	user data dir: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench
-	open at start: 
-	open type: 
-	run at startup: 
-	run type: 
-	Force SW rendering: No
-	Force OpenGL: No
-	quit when done: No
-10:51:51 [INF][      WBContext]: WbContext::init
-10:51:51 [INF][            WBA]: Looking for extension modules for WBA...
-10:51:51 [INF][            WBA]: 0 extension modules found
-10:51:51 [WRN][            grt]: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench\connections.xml:18: link '{332E4045-94A7-4FF5-ABFC-F9427C441710}' <object GrtObject> key=owner could not be resolved
-10:51:51 [INF][      WBContext]: System info:
- 	MySQL Workbench Community (GPL) for Windows version 8.0.21 CE build 16448441 (64 bit)
-	Configuration Directory: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench
-	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
-	Cairo Version: 1.10.2
-	OS: Microsoft Windows 10 Home
-	CPU: 8x Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz, 11.8 GiB RAM
-	Active video adapter Intel(R) UHD Graphics
-	Installed video RAM: 1024 MB
-	Current video mode: 1366 x 768 x 4294967296 colors
-	Used bit depth: 32
-	Driver version: 26.20.100.7926
-	Installed display drivers: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd12umd64.dll
-	Current user language: English (United States)
-
-10:51:51 [INF][      Workbench]: UI is up
-10:51:51 [INF][      Workbench]: Running the application
-10:52:22 [INF][ Canvas backend]: Found OpenGL version for this view: 4.6.0 - Build 26.20.100.7926
-10:52:22 [WRN][ Canvas backend]: Could not load image '@images/MySQL_clr.png' for 'Image'
-10:52:38 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.21
-10:52:38 [ERR][SQL Editor Form]: Unable to create db_mgmt_SSHConnectionRef object
-10:52:38 [INF][        WQE.net]: Launching SQL IDE
-10:52:39 [INF][        WQE.net]: SQL IDE UI is ready
+12:09:39 [INF][      Workbench]: Current version given by meta info is: 8.0.21
+12:09:39 [INF][      Workbench]: Exiting as another instance of WB is already running.
+12:20:32 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.21
+12:20:32 [ERR][SQL Editor Form]: Unable to create db_mgmt_SSHConnectionRef object
+12:20:32 [INF][        WQE.net]: Launching SQL IDE
+12:20:32 [INF][        WQE.net]: SQL IDE UI is ready
+12:20:38 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80 (employees))
+12:20:52 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80 (employees))
+12:20:52 [INF][      Workbench]: Shutting down Workbench
+12:20:52 [INF][ mforms managed]: Shutting down mforms wrapper
+12:20:52 [INF][      Workbench]: Done

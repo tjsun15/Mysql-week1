@@ -1,16 +1,16 @@
-18:00:48 [ERR][      Workbench]: Console redirection failed.
-18:00:48 [INF][      Workbench]: Starting up Workbench
-18:00:48 [INF][      Workbench]: Current environment:
+18:22:48 [ERR][      Workbench]: Console redirection failed.
+18:22:48 [INF][      Workbench]: Starting up Workbench
+18:22:48 [INF][      Workbench]: Current environment:
 	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySQLWorkbench.exe" 
 	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
 	HasShutdownStarted: False
 	OSVersion: Microsoft Windows NT 6.2.9200.0
 	SystemDirectory: C:\WINDOWS\system32
-	TickCount: 73666125
+	TickCount: 161386218
 	UserInteractive: True
 	Version: 4.0.30319.42000
-	WorkingSet: 43257856
-18:00:48 [INF][      Workbench]: Environment variables:
+	WorkingSet: 41517056
+18:22:48 [INF][      Workbench]: Environment variables:
 	COMPUTERNAME = LAPTOP-KF5V4KKB
 	USERPROFILE = C:\Users\tazh_
 	HOMEPATH = \Users\tazh_
@@ -52,11 +52,10 @@
 	windir = C:\WINDOWS
 	PROCESSOR_REVISION = 7e05
 	PUBLIC = C:\Users\Public
-	__COMPAT_LAYER = DetectorsAppHealth
-18:00:48 [INF][      Workbench]: Current version given by meta info is: 8.0.21
-18:00:48 [INF][      Workbench]: Setting PATH to: C:\WINDOWS\system32;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\tazh_\AppData\Local\Microsoft\WindowsApps;
-18:00:48 [INF][ mforms managed]: Initializing mforms wrapper
-18:00:48 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+18:22:48 [INF][      Workbench]: Current version given by meta info is: 8.0.21
+18:22:48 [INF][      Workbench]: Setting PATH to: C:\WINDOWS\system32;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\tazh_\AppData\Local\Microsoft\WindowsApps;
+18:22:48 [INF][ mforms managed]: Initializing mforms wrapper
+18:22:48 [INF][   WBContext UI]: Initializing workbench context UI with these values:
 	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
 	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
 	struct path: 
@@ -70,11 +69,11 @@
 	Force SW rendering: No
 	Force OpenGL: No
 	quit when done: No
-18:00:48 [INF][      WBContext]: WbContext::init
-18:00:48 [INF][            WBA]: Looking for extension modules for WBA...
-18:00:48 [INF][            WBA]: 0 extension modules found
-18:00:48 [WRN][            grt]: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench\server_instances.xml:28: link '{12DE61AC-49F6-4DAA-931A-4E4B827CC0C7}' <object GrtObject> key=owner could not be resolved
-18:00:48 [INF][      WBContext]: System info:
+18:22:48 [INF][      WBContext]: WbContext::init
+18:22:55 [INF][            WBA]: Looking for extension modules for WBA...
+18:22:55 [INF][            WBA]: 0 extension modules found
+18:22:56 [WRN][            grt]: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench\connections.xml:17: link '{6BF35682-F956-42DD-8E34-CB4DCA395FD0}' <object GrtObject> key=owner could not be resolved
+18:22:56 [INF][      WBContext]: System info:
  	MySQL Workbench Community (GPL) for Windows version 8.0.21 CE build 16448441 (64 bit)
 	Configuration Directory: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench
 	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
@@ -89,12 +88,13 @@
 	Installed display drivers: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd12umd64.dll
 	Current user language: English (United States)
 
-18:00:48 [INF][      Workbench]: UI is up
-18:00:49 [INF][      Workbench]: Running the application
-18:00:52 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.21
-18:00:53 [INF][        WQE.net]: Launching SQL IDE
-18:00:53 [INF][        WQE.net]: SQL IDE UI is ready
-18:00:57 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
-18:00:57 [INF][      Workbench]: Shutting down Workbench
-18:00:57 [INF][ mforms managed]: Shutting down mforms wrapper
-18:00:57 [INF][      Workbench]: Done
+18:22:56 [INF][      Workbench]: UI is up
+18:22:57 [INF][      Workbench]: Running the application
+18:23:10 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.21
+18:23:11 [INF][        WQE.net]: Launching SQL IDE
+18:23:12 [INF][        WQE.net]: SQL IDE UI is ready
+18:33:41 [ERR][ sqlide-history]: Can't open SQL history file C:\Users\tazh_\AppData\Roaming\MySQL\Workbench\sql_history\2020-09-30
+18:20:59 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+18:21:00 [INF][      Workbench]: Shutting down Workbench
+18:21:00 [INF][ mforms managed]: Shutting down mforms wrapper
+18:21:00 [INF][      Workbench]: Done

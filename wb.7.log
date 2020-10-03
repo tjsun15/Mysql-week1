@@ -1,16 +1,16 @@
-18:21:02 [ERR][      Workbench]: Console redirection failed.
-18:21:02 [INF][      Workbench]: Starting up Workbench
-18:21:02 [INF][      Workbench]: Current environment:
+18:21:07 [ERR][      Workbench]: Console redirection failed.
+18:21:07 [INF][      Workbench]: Starting up Workbench
+18:21:07 [INF][      Workbench]: Current environment:
 	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySQLWorkbench.exe" 
 	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
 	HasShutdownStarted: False
 	OSVersion: Microsoft Windows NT 6.2.9200.0
 	SystemDirectory: C:\WINDOWS\system32
-	TickCount: 247680734
+	TickCount: 247685828
 	UserInteractive: True
 	Version: 4.0.30319.42000
-	WorkingSet: 41553920
-18:21:02 [INF][      Workbench]: Environment variables:
+	WorkingSet: 41480192
+18:21:07 [INF][      Workbench]: Environment variables:
 	COMPUTERNAME = LAPTOP-KF5V4KKB
 	USERPROFILE = C:\Users\tazh_
 	HOMEPATH = \Users\tazh_
@@ -52,21 +52,51 @@
 	windir = C:\WINDOWS
 	PROCESSOR_REVISION = 7e05
 	PUBLIC = C:\Users\Public
-18:21:02 [INF][      Workbench]: Current version given by meta info is: 8.0.21
-18:21:02 [INF][      Workbench]: Setting PATH to: C:\WINDOWS\system32;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\tazh_\AppData\Local\Microsoft\WindowsApps;
-18:21:02 [INF][ mforms managed]: Initializing mforms wrapper
-18:21:05 [INF][   WBContext UI]: Initializing workbench context UI with these values:
-	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
-	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
-	struct path: 
-	module path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE/modules
-	library path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
-	user data dir: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench
-	open at start: 
-	open type: 
-	run at startup: 
-	run type: 
-	Force SW rendering: No
-	Force OpenGL: No
-	quit when done: No
-18:21:05 [INF][      WBContext]: WbContext::init
+18:21:07 [INF][      Workbench]: Current version given by meta info is: 8.0.21
+18:21:08 [INF][      Workbench]: Exiting as another instance of WB is already running.
+18:21:11 [INF][            WBA]: Looking for extension modules for WBA...
+18:21:11 [INF][            WBA]: 0 extension modules found
+18:21:12 [WRN][            grt]: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench\connections.xml:18: link '{F68F782E-508C-4112-AB6F-FEFC46B2E819}' <object GrtObject> key=owner could not be resolved
+18:21:12 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.21 CE build 16448441 (64 bit)
+	Configuration Directory: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
+	Cairo Version: 1.10.2
+	OS: Microsoft Windows 10 Home
+	CPU: 8x Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz, 11.8 GiB RAM
+	Active video adapter Intel(R) UHD Graphics
+	Installed video RAM: 1024 MB
+	Current video mode: 1366 x 768 x 4294967296 colors
+	Used bit depth: 32
+	Driver version: 26.20.100.7926
+	Installed display drivers: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd12umd64.dll
+	Current user language: English (United States)
+
+18:21:12 [INF][      Workbench]: UI is up
+18:21:13 [INF][      Workbench]: Running the application
+18:21:15 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.21
+18:21:16 [INF][        WQE.net]: Launching SQL IDE
+18:21:16 [INF][        WQE.net]: SQL IDE UI is ready
+18:26:39 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from employeees where female && hire_date < 1990' at line 1
+18:27:19 [ERR][SQL Editor Form]: Error Code: 1146. Table 'employees.employeees' doesn't exist
+18:27:31 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'female' in 'where clause'
+18:28:31 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'female' in 'where clause'
+18:30:23 [ERR][SQL Editor Form]: Error Code: 1525. Incorrect DATE value: '1990%'
+19:40:37 [ERR][SQL Editor Form]: Error Code: 1175. You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column. 
+To disable safe mode, toggle the option in Preferences -> SQL Editor and reconnect.
+19:41:32 [ERR][SQL Editor Form]: Error Code: 1175. You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column. 
+To disable safe mode, toggle the option in Preferences -> SQL Editor and reconnect.
+19:44:42 [ERR][SQL Editor Form]: Error Code: 1175. You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column. 
+To disable safe mode, toggle the option in Preferences -> SQL Editor and reconnect.
+19:47:17 [ERR][SQL Editor Form]: Error Code: 1175. You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column. 
+To disable safe mode, toggle the option in Preferences -> SQL Editor and reconnect.
+19:47:44 [ERR][SQL Editor Form]: Error Code: 1175. You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column. 
+To disable safe mode, toggle the option in Preferences -> SQL Editor and reconnect.
+19:58:57 [ERR][SQL Editor Form]: Error Code: 1175. You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column. 
+To disable safe mode, toggle the option in Preferences -> SQL Editor and reconnect.
+20:08:02 [ERR][SQL Editor Form]: Error Code: 1175. You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column. 
+To disable safe mode, toggle the option in Preferences -> SQL Editor and reconnect.
+20:09:24 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+20:09:25 [INF][      Workbench]: Shutting down Workbench
+20:09:25 [INF][ mforms managed]: Shutting down mforms wrapper
+20:09:25 [INF][      Workbench]: Done
