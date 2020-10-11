@@ -95,3 +95,7 @@
 18:11:54 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.21
 18:11:55 [INF][        WQE.net]: Launching SQL IDE
 18:11:55 [INF][        WQE.net]: SQL IDE UI is ready
+19:14:43 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+19:14:43 [INF][      Workbench]: Shutting down Workbench
+19:14:43 [INF][ mforms managed]: Shutting down mforms wrapper
+19:14:43 [INF][      Workbench]: Done
