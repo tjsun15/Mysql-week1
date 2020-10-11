@@ -1,61 +1,63 @@
-10:51:51 [ERR][      Workbench]: Console redirection failed.
-10:51:51 [INF][      Workbench]: Starting up Workbench
-10:51:51 [INF][      Workbench]: Current environment:
+17:06:31 [ERR][      Workbench]: Console redirection failed.
+17:06:31 [INF][      Workbench]: Starting up Workbench
+17:06:31 [INF][      Workbench]: Current environment:
 	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySQLWorkbench.exe" 
 	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
 	HasShutdownStarted: False
 	OSVersion: Microsoft Windows NT 6.2.9200.0
 	SystemDirectory: C:\WINDOWS\system32
-	TickCount: 393529078
+	TickCount: 1959906
 	UserInteractive: True
 	Version: 4.0.30319.42000
-	WorkingSet: 41418752
-10:51:51 [INF][      Workbench]: Environment variables:
-	COMPUTERNAME = LAPTOP-KF5V4KKB
-	USERPROFILE = C:\Users\tazh_
-	HOMEPATH = \Users\tazh_
-	LOCALAPPDATA = C:\Users\tazh_\AppData\Local
-	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
-	PROCESSOR_ARCHITECTURE = AMD64
-	CommonProgramW6432 = C:\Program Files\Common Files
-	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
-	ProgramFiles(x86) = C:\Program Files (x86)
-	PROCESSOR_LEVEL = 6
-	LOGONSERVER = \\LAPTOP-KF5V4KKB
-	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
-	HOMEDRIVE = C:
-	SystemRoot = C:\WINDOWS
-	RegionCode = NA
-	SESSIONNAME = Console
-	ALLUSERSPROFILE = C:\ProgramData
-	DriverData = C:\Windows\System32\Drivers\DriverData
-	APPDATA = C:\Users\tazh_\AppData\Roaming
-	Path = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\tazh_\AppData\Local\Microsoft\WindowsApps;
-	OnlineServices = Online Services
-	OneDrive = C:\Users\tazh_\OneDrive
-	USERNAME = tazh_
-	CommonProgramFiles = C:\Program Files\Common Files
-	OS = Windows_NT
-	USERDOMAIN_ROAMINGPROFILE = LAPTOP-KF5V4KKB
-	platformcode = KV
-	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
-	OneDriveConsumer = C:\Users\tazh_\OneDrive
-	USERDOMAIN = LAPTOP-KF5V4KKB
+	WorkingSet: 41455616
+17:06:31 [INF][      Workbench]: Environment variables:
 	SystemDrive = C:
-	TEMP = C:\Users\tazh_\AppData\Local\Temp
-	ProgramFiles = C:\Program Files
-	NUMBER_OF_PROCESSORS = 8
-	ComSpec = C:\WINDOWS\system32\cmd.exe
-	TMP = C:\Users\tazh_\AppData\Local\Temp
-	ProgramData = C:\ProgramData
+	ProgramFiles(x86) = C:\Program Files (x86)
 	ProgramW6432 = C:\Program Files
-	windir = C:\WINDOWS
+	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+	TMP = C:\Users\tazh_\AppData\Local\Temp
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\tazh_\AppData\Local\Microsoft\WindowsApps;
+	USERPROFILE = C:\Users\tazh_
 	PROCESSOR_REVISION = 7e05
+	TEMP = C:\Users\tazh_\AppData\Local\Temp
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	LOGONSERVER = \\LAPTOP-KF5V4KKB
+	USERNAME = tazh_
+	SystemRoot = C:\WINDOWS
+	OneDrive = C:\Users\tazh_\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	PROCESSOR_LEVEL = 6
+	ProgramData = C:\ProgramData
+	platformcode = KV
+	HOMEPATH = \Users\tazh_
+	OneDriveConsumer = C:\Users\tazh_\OneDrive
+	COMPUTERNAME = LAPTOP-KF5V4KKB
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ALLUSERSPROFILE = C:\ProgramData
+	CommonProgramW6432 = C:\Program Files\Common Files
+	SESSIONNAME = Console
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	HOMEDRIVE = C:
+	windir = C:\WINDOWS
+	NUMBER_OF_PROCESSORS = 8
+	OS = Windows_NT
+	ProgramFiles = C:\Program Files
+	ComSpec = C:\WINDOWS\system32\cmd.exe
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+	APPDATA = C:\Users\tazh_\AppData\Roaming
+	USERDOMAIN = LAPTOP-KF5V4KKB
+	OnlineServices = Online Services
+	LOCALAPPDATA = C:\Users\tazh_\AppData\Local
+	USERDOMAIN_ROAMINGPROFILE = LAPTOP-KF5V4KKB
+	RegionCode = NA
 	PUBLIC = C:\Users\Public
-10:51:51 [INF][      Workbench]: Current version given by meta info is: 8.0.21
-10:51:51 [INF][      Workbench]: Setting PATH to: C:\WINDOWS\system32;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\tazh_\AppData\Local\Microsoft\WindowsApps;
-10:51:51 [INF][ mforms managed]: Initializing mforms wrapper
-10:51:51 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+17:06:31 [INF][      Workbench]: Current version given by meta info is: 8.0.21
+17:06:31 [INF][      Workbench]: Setting PATH to: C:\WINDOWS\system32;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\tazh_\AppData\Local\Microsoft\WindowsApps;
+17:06:31 [INF][ mforms managed]: Initializing mforms wrapper
+17:06:31 [INF][   WBContext UI]: Initializing workbench context UI with these values:
 	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
 	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
 	struct path: 
@@ -69,11 +71,11 @@
 	Force SW rendering: No
 	Force OpenGL: No
 	quit when done: No
-10:51:51 [INF][      WBContext]: WbContext::init
-10:51:51 [INF][            WBA]: Looking for extension modules for WBA...
-10:51:51 [INF][            WBA]: 0 extension modules found
-10:51:51 [WRN][            grt]: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench\connections.xml:18: link '{332E4045-94A7-4FF5-ABFC-F9427C441710}' <object GrtObject> key=owner could not be resolved
-10:51:51 [INF][      WBContext]: System info:
+17:06:31 [INF][      WBContext]: WbContext::init
+17:06:31 [INF][            WBA]: Looking for extension modules for WBA...
+17:06:31 [INF][            WBA]: 0 extension modules found
+17:06:31 [WRN][            grt]: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench\connections.xml:27: link '{728D2E4E-2098-4F89-8FED-E35877602222}' <object GrtObject> key=owner could not be resolved
+17:06:31 [INF][      WBContext]: System info:
  	MySQL Workbench Community (GPL) for Windows version 8.0.21 CE build 16448441 (64 bit)
 	Configuration Directory: C:\Users\tazh_\AppData\Roaming\MySQL\Workbench
 	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0 CE
@@ -88,11 +90,18 @@
 	Installed display drivers: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ada2367baaae74c0\igd12umd64.dll
 	Current user language: English (United States)
 
-10:51:51 [INF][      Workbench]: UI is up
-10:51:51 [INF][      Workbench]: Running the application
-10:52:22 [INF][ Canvas backend]: Found OpenGL version for this view: 4.6.0 - Build 26.20.100.7926
-10:52:22 [WRN][ Canvas backend]: Could not load image '@images/MySQL_clr.png' for 'Image'
-10:52:38 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.21
-10:52:38 [ERR][SQL Editor Form]: Unable to create db_mgmt_SSHConnectionRef object
-10:52:38 [INF][        WQE.net]: Launching SQL IDE
-10:52:39 [INF][        WQE.net]: SQL IDE UI is ready
+17:06:31 [INF][      Workbench]: UI is up
+17:06:32 [INF][      Workbench]: Running the application
+17:07:44 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost:3306
+17:07:44 [WRN][SQL Editor Form]: Unable to connect to localhost:3306
+17:07:44 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+17:07:44 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+17:07:45 [INF][        WQE.net]: Launching SQL IDE
+17:07:45 [INF][        WQE.net]: SQL IDE UI is ready
+17:07:49 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost:3306 (code 2003)
+17:07:50 [INF][wb_admin_control.py:query_server_installation_info:860]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+17:07:53 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost:3306 (code 2003)',)
+17:22:00 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+17:22:01 [INF][      Workbench]: Shutting down Workbench
+17:22:01 [INF][ mforms managed]: Shutting down mforms wrapper
+17:22:01 [INF][      Workbench]: Done

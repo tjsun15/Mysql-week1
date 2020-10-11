@@ -317,3 +317,86 @@ Rows matched: 31566  Changed: 0  Warnings: 0
 [50, 07:57:25] select * from employees limit 250: Running...
 [50, 07:57:25] select * from employees limit 250: Fetching...
 [50, 07:57:25] select * from employees limit 250: 250 row(s) returned
+[1, 17:00:37] Could not connect, server may not be running.: Unable to connect to localhost:3306
+[1, 17:01:22] Could not connect, server may not be running.: Unable to connect to localhost:3306
+[1, 17:07:44] Could not connect, server may not be running.: Unable to connect to localhost:3306
+[1, 05:04:36] show databases: Running...
+[1, 05:04:36] show databases: Fetching...
+[1, 05:04:36] show databases: 5 row(s) returned
+[2, 05:04:45] use employees: Running...
+[2, 05:04:45] use employees: 0 row(s) affected
+[3, 05:04:57] desc employees: Running...
+[3, 05:04:57] desc employees: Fetching...
+[3, 05:04:57] desc employees: 6 row(s) returned
+[4, 05:05:09] show databases: Running...
+[4, 05:05:09] show databases: Fetching...
+[4, 05:05:09] show databases: 5 row(s) returned
+[5, 05:05:19] desc employees: Running...
+[5, 05:05:19] desc employees: Fetching...
+[5, 05:05:19] desc employees: 6 row(s) returned
+[6, 05:05:58] show tables: Running...
+[6, 05:05:58] show tables: Fetching...
+[6, 05:05:58] show tables: 8 row(s) returned
+[1, 18:12:05] desc employees: Running...
+[1, 18:12:05] desc employees: Fetching...
+[1, 18:12:05] desc employees: 6 row(s) returned
+[2, 18:12:27] show databases: Running...
+[2, 18:12:27] show databases: Fetching...
+[2, 18:12:27] show databases: 5 row(s) returned
+[3, 18:15:10] SELECT COUNT(*) AS " # OF EMPLOYEES"
+FROM employees e
+INNER JOIN titles t on e.emp_no = t.emp_no
+WHERE birth_date > '1965-01-01': Running...
+[3, 18:15:10] SELECT COUNT(*) AS " # OF EMPLOYEES"
+FROM employees e
+INNER JOIN titles t on e.emp_no = t.emp_no
+WHERE birth_date > '1965-01-01': Fetching...
+[3, 18:15:10] SELECT COUNT(*) AS " # OF EMPLOYEES"
+FROM employees e
+INNER JOIN titles t on e.emp_no = t.emp_no
+WHERE birth_date > '1965-01-01': 1 row(s) returned
+[4, 18:20:00] SELECT avg(salary) AS "Salary Average per Title"
+FROM salaries s
+INNER JOIN titles t on s.emp_no = t.emp_no
+GROUP BY t.title: Running...
+[4, 18:20:11] SELECT avg(salary) AS "Salary Average per Title"
+FROM salaries s
+INNER JOIN titles t on s.emp_no = t.emp_no
+GROUP BY t.title: Fetching...
+[4, 18:20:11] SELECT avg(salary) AS "Salary Average per Title"
+FROM salaries s
+INNER JOIN titles t on s.emp_no = t.emp_no
+GROUP BY t.title: 7 row(s) returned
+[5, 18:21:02] SELECT avg(salary) AS "Salary Average per Title", t.title
+FROM salaries s
+INNER JOIN titles t on s.emp_no = t.emp_no
+GROUP BY t.title: Running...
+[5, 18:21:12] SELECT avg(salary) AS "Salary Average per Title", t.title
+FROM salaries s
+INNER JOIN titles t on s.emp_no = t.emp_no
+GROUP BY t.title: Fetching...
+[5, 18:21:12] SELECT avg(salary) AS "Salary Average per Title", t.title
+FROM salaries s
+INNER JOIN titles t on s.emp_no = t.emp_no
+GROUP BY t.title: 7 row(s) returned
+[6, 18:31:35] SELECT SUM(salary), d.dept_name
+FROM salaries s 
+INNER JOIN dept_emp de on s.emp_no = de.emp_no
+INNER JOIN departments d on de.dept_no = d.dept_no
+WHERE dept_name = "Marketing" AND s.from_date >= '1990-01-01'
+AND s.to_date <= '1992-12-31'
+GROUP BY dept_name: Running...
+[6, 18:31:36] SELECT SUM(salary), d.dept_name
+FROM salaries s 
+INNER JOIN dept_emp de on s.emp_no = de.emp_no
+INNER JOIN departments d on de.dept_no = d.dept_no
+WHERE dept_name = "Marketing" AND s.from_date >= '1990-01-01'
+AND s.to_date <= '1992-12-31'
+GROUP BY dept_name: Fetching...
+[6, 18:31:36] SELECT SUM(salary), d.dept_name
+FROM salaries s 
+INNER JOIN dept_emp de on s.emp_no = de.emp_no
+INNER JOIN departments d on de.dept_no = d.dept_no
+WHERE dept_name = "Marketing" AND s.from_date >= '1990-01-01'
+AND s.to_date <= '1992-12-31'
+GROUP BY dept_name: 1 row(s) returned
